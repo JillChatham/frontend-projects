@@ -1,0 +1,23 @@
+// CUSTOMIZATIONS
+
+$elyse-project-color: #651B63;
+
+// add your project main color here:
+$jill-project-color: #95a5a6;
+
+
+
+
+// change the body background color on each page based on your name
+
+#elyse {
+    @include readable($elyse-project-color); // this readable mixin is in color-test.scss. it determines what the font color should be based on your background color!
+}
+
+#alex {}
+
+#sartaj {}
+
+#jill {
+    @include readable($jill-project-color); // this readable mixin is in color-test.scss. it determines what the font color should be based on your background color!
+}
